@@ -9,27 +9,7 @@ const applications = [
   {
     chunkName: 'sensor-point-areas',
     title: 'Sensor - Point Areas',
-  },
-  {
-    chunkName: 'sensor-sweep-control',
-    title: 'Sensor - Sweep Control',
-  },
-  {
-    chunkName: 'sensor-tags-level-of-detail',
-    title: 'Sensor - Tags Level of Detail',
-  },
-  {
-    chunkName: 'sensor-tags-per-sweep',
-    title: 'Sensor - Tags per sweep',
-  },
-  {
-    chunkName: 'training-tags-demo',
-    title: 'Tags - Training Tags Demo',
-  },
-  {
-    chunkName: 'training-tags-overlay',
-    title: 'Tags - Training Tags Overlay',
-  },
+  }
 ];
 
 /**
