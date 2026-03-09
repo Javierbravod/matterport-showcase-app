@@ -1,8 +1,8 @@
 
 import type { MpSdk } from 'embedtypes/sdk';
-import { clearMesssage, connect, setMessage } from '../common';
+import { clearMesssage, connect, setMessage } from '../common'; // Solo un nivel atrás
 import '../common/main.css';
-import sourceDescs from './sources.json';
+import sourceDescs from './sources.json'; // En la misma carpeta
 const main = async () => {
   const sdk: MpSdk = await connect({
     urlParams: {

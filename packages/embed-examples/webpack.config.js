@@ -18,8 +18,8 @@ const applications = [
 const chunkEntries = function () {
   const chunks = {};
   for (const application of applications) {
-    // CORRECCIÓN AQUÍ: Se agregó '/TS/' a la ruta para que coincida con tu carpeta
-    chunks[application.chunkName] = `./examples/${application.chunkName}/TS/index.ts`;
+    // SIN la carpeta /TS/
+    chunks[application.chunkName] = `./examples/${application.chunkName}/index.ts`;
   }
   return chunks;
 };
